@@ -1,0 +1,130 @@
+body{
+	font-style: Arial;
+}
+
+/* HEADER */
+.nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	padding: 12px;
+	font-style: Arial;
+	padding-top: 12px;
+}
+.nav{
+	text-align: right;
+}
+
+.count {
+	display: block;
+	padding: 12px;
+}
+
+.background {
+	text-shadow: 0.2em 0.2em 0.05em black;
+	text-decoration-color: grey;
+	position: center;
+	font-size: 100px;
+	text-align: center;
+}
+
+.count {
+	font-style: Arial;
+	color: white;
+	list-style-type: none;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.button {
+	background-color:  #151a27;
+	border: 2px solid;
+	border-color: black;
+	text-align: center;
+	float: right;
+	font-size: 16px;
+	border-radius: 8px;
+	color: #cd915e;
+}
+
+/*BODY*/
+.after {
+	text-align: center;
+	background-color: white;
+	margin-bottom: 100px;
+}
+
+.after h3 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.food::after {
+	display: table;
+	clear: both;
+	padding-bottom: 12px;
+}
+
+.dessert {
+	text-align: center;
+	background-image: url(cake.png);
+	width: 33.33%;
+	height: 400px;
+	float: left;
+}
+
+.smoothies {
+	text-align: center;
+	background-image: url(cerise.png);
+	width: 33.33%;
+	height: 400px;
+	float: left;
+}
+
+.breakfast {
+	text-align: center;
+	background-image: url(food.png);
+	width: 33.33%;
+	height: 400px;
+	float: left;
+}
+
+.queques {
+	background-image: url(queques.png);
+}
+
+.queques-1 {
+	background-color: white;
+	color: black;
+	width: 50px;
+	height: 100px;
+	text-align: center;
+	position: center;
+}
+
+.french {
+	text-align: center;
+	background-image: url(noir.png);
+	width: 33.33%;
+	height: 200px;
+	float: left;
+}
+
+.location {
+	text-align: center;
+	width: 33.33%;
+	height: 200px;
+	float: left;
+}
+
+.other {
+	text-align: center;
+	width: 33.33%;
+	height: 200px;
+	float: left;
+}
+
+.footer {
+	background-color: white;
+	text-align: center;
+}
